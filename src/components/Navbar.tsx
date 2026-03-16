@@ -12,9 +12,10 @@ const Navbar = () => {
         </a>
 
         <nav className="hidden sm:flex items-center gap-6 text-sm font-medium text-muted-foreground">
-          <a href="#how-it-works" className="hover:text-primary transition-colors">How It Works</a>
-          <a href="#features" className="hover:text-primary transition-colors">Features</a>
-          <a href="#faq" className="hover:text-primary transition-colors">FAQ</a>
+          <a href="/#how-it-works" className="hover:text-primary transition-colors">How It Works</a>
+          <a href="/#features" className="hover:text-primary transition-colors">Features</a>
+          <a href="/profile" className="hover:text-primary transition-colors">Profile Viewer</a>
+          <a href="/#faq" className="hover:text-primary transition-colors">FAQ</a>
         </nav>
       </div>
     </header>
