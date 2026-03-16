@@ -1,1 +1,4 @@
 project_id = "ytopleaqghohihkzegsm"
+
+[functions.get-profile-videos]
+verify_jwt = false
